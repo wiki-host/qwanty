@@ -1,6 +1,6 @@
 const f = document.getElementById('form');
 const q = document.getElementById('query');
-const google = 'https://www.qwant.com/search?q=';
+const qwant = 'https://www.qwant.com/search?q=';
 function submitted(event) {
   event.preventDefault();
   const url = qwant + q.value;
